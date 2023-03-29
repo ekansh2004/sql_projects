@@ -13,6 +13,7 @@ VALUES
 	('Charles', 'M', 71),
 	('Joe', 'M', 15);
 
+DROP TABLE IF EXISTS audit;
 CREATE TABLE IF NOT EXISTS audit (
 	id SERIAL PRIMARY KEY,
 	user_name TEXT, 
